@@ -12,6 +12,7 @@ body{
         margin-left: 0px;
     }
 }
+
 .head{
   margin-top: 40px;
   margin-bottom: 40px;
@@ -586,7 +587,7 @@ footer{
     justify-content:center;
     align-items: baseline;
     color:#0c2461;
-    margin-top: 160px;
+    margin-top: 80px;
     @media (max-width: 1530px) {
        margin-top: 0px;
     }
@@ -594,7 +595,7 @@ footer{
 
 .banner_section {
   border-bottom: 1px solid #ebebeb;
-  margin-bottom: 70px;
+  margin-bottom: 30px;
   @media (max-width: 1300px) {
     align-items: center;
     text-align: center;
