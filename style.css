@@ -51,7 +51,7 @@ body{
   margin-top: 40px;
   margin-bottom: 40px;
   display: flex;
-  padding: 10px;
+  padding: 25px;
   justify-content:space-around;
   border: solid #74b9ff 2px;
   @media(max-width :1330px){
@@ -195,7 +195,6 @@ body{
     align-items: center;
     margin: 70px;
     height: 200px;
-  
   }
   
   .product_tab_button ul li a {
