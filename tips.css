@@ -1,0 +1,13 @@
+.tips{
+    margin-top: 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tips_element{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+}
