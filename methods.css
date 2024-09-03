@@ -3,7 +3,7 @@ body{
 .names{
     height: 70px;
     width: 100%;
-    background-color: gray;
+    background-color:white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -11,19 +11,23 @@ body{
     margin-bottom: 20px;
 }
 .names:hover{
-    background-color: aqua;
+    background-color:#ff7f50;
 
 }
 .diff_methods{
   background-color:antiquewhite;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .state_methods{
-  background-color: beige;
+  background-color:#b8e994;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 .names1{
     height: 70px;
     width: 100%;
-    background-color: gray;
+    background-color:white;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -31,7 +35,7 @@ body{
     margin-bottom: 20px;
 }
 .names1:hover{
-    background-color:rebeccapurple;
+    background-color: #2ed573;
 
 }
 .modal-dialog.modal-dialog-centered {

@@ -15,6 +15,19 @@ body{
 .explore_more{
   background-color: beige;
 }
+.why_title{
+  font-size: 1.5rem;
+  color: #2ed573;
+  @media(max-width :1330px){
+    font-size: 1rem;
+}
+}
+.why_content{
+  font-size: 1.5rem;
+  @media(max-width :1330px){
+    font-size: 1rem;
+}
+}
 .head_title{
   display: flex;
   align-items: center;
@@ -24,7 +37,7 @@ body{
   text-align: center;
   align-items: center;
   justify-content: space-between;
-  background-color: #a8741a;
+  background-color: #1e90ff;
 }
 .ha{
   display: flex;
@@ -114,13 +127,14 @@ body{
     justify-content: center;
 }
 .title1{
-    color:black;
-    font-size: 1.3rem;
+    color:#1e90ff;
+    font-size: 2.5rem;
     margin-top: 40px;
-    font-weight: bold;
+    display: flex;
+    justify-content: center;
     margin-bottom: 10px;
     @media(max-width :1330px){
-        font-size: 1rem;
+        font-size: 1.7rem;
         margin-top: 20px;
     }
 }
@@ -367,10 +381,10 @@ body{
   }
   
   .product_black_section .single_product:hover {
-    background: #4b7bec;
+    background:#1e90ff;
   }
   .product_black_section .single_product:active {
-    background:#4b7bec;
+    background:#1e90ff;
   }
   
   
@@ -904,11 +918,11 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .header_black .sticky-header.sticky {
-  background: #a8741a;
+  background: #1e90ff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.11);
 }
 
@@ -1086,6 +1100,11 @@ footer{
 .header_black .main_menu nav > ul > li ul.sub_menu li a {
   color: #ffffff;
   font-family: serif;
+  font-size: 20px;
+  @media (max-width: 1300px) {
+    font-size: 14px;
+    
+}
 }
 
 .header_black .main_menu nav > ul > li ul.sub_menu li a:hover {
