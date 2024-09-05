@@ -11,7 +11,27 @@
     background-color: bisque;
     border-radius: 20px;
 }
-
+.house_tips{
+  background-image: url("./images/house.jpg");
+}
+.yard_tips{
+  background-image: url("./images/garden.jpg");
+}
+.trees_tips{
+  background-image: url("./images/tree.jpg");
+}
+.tips_text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  @media (max-width: 1530px) {
+    font-size: .6rem;
+    padding: 0px;
+}
+}
 .tips_all{
     margin-top: 30px;
 }

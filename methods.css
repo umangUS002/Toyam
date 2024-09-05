@@ -14,13 +14,16 @@ body{
     background-color:#ff7f50;
 
 }
+.names:active{
+  background-color:#ff7f50;
+}
 .diff_methods{
   background-color:antiquewhite;
   padding-bottom: 20px;
   padding-top: 20px;
 }
 .state_methods{
-  background-color:#b8e994;
+  background-color:white;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -36,6 +39,10 @@ body{
 }
 .names1:hover{
     background-color: #2ed573;
+
+}
+.names1:active{
+  background-color: #2ed573;
 
 }
 .modal-dialog.modal-dialog-centered {
@@ -95,7 +102,7 @@ body{
     margin-bottom: 10px;
     color: orangered;
     line-height: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     @media (max-width: 1300px) {
       font-size: 30px;
   
