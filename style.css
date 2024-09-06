@@ -2,6 +2,9 @@ body{
   padding: 0%;
   margin: 0%;
 } 
+body{
+	cursor: url("./images/cursor.png"), auto;
+}
     .toyam{
     font-size: 2rem;
     margin-left: 20px;
@@ -1461,3 +1464,94 @@ body{
   }
   }
   
+   
+ 
+.bg{
+  display: flex;
+}
+
+.imagee1{ 
+  position: relative;
+  height: 65vh;
+  width: 100%;
+  background-image: url(./images/login-bg.png);
+  background-size: cover;
+  margin-bottom: -50px;
+  @media (max-width: 1530px) {
+    height: 50vh;
+}
+}
+
+.imagee2{
+  position: absolute;
+  height: 65vh;
+  width: 100%;
+  background-image: url(./images/splash.jpg);
+  background-position: center;
+  background-size: cover;
+  mix-blend-mode: screen;
+  margin-bottom: -50px;
+  @media (max-width: 1530px) {
+    height: 50vh;
+}
+}
+
+
+.box:hover{
+  animation-play-state: paused;
+  
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  width: 200px;
+  height: 350px;
+  
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+  animation: animate 30s linear infinite;
+  margin: 400px auto;
+  margin-top: 0px;
+  margin-bottom: 100px;
+  @media (max-width: 1530px) {
+    width: 200px;
+    height: 200px;
+}
+}
+@keyframes animate {
+  0%{
+      transform: perspective(1000px) rotateY(0deg);
+  }
+  100%{
+      transform: perspective(1000px) rotateY(360deg);
+  }
+}
+.box span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  transform: rotateY(calc(var(--i) * 45deg)) translateZ(240px);
+}
+
+.box span::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  box-shadow: inset 0 0 15px rgba(0,0,0,0.5);
+}
+
+.box span img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
