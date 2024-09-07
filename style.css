@@ -1474,7 +1474,7 @@ body{
   position: relative;
   height: 65vh;
   width: 100%;
-  background-image: url(./images/bg_img.jpeg);
+  background-image: url(./images/bg_img.jpg);
   background-size: cover;
   margin-bottom: -50px;
   @media (max-width: 1530px) {
